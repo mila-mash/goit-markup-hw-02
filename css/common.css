@@ -1,0 +1,15 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body a:hover,
+body a:active {
+  text-decoration: none;
+}
