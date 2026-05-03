@@ -4,11 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,6 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
@@ -26,20 +27,30 @@
       >
 
       <nav class="navigation">
-        <ul>
-          <li class="link"><a href="#features">Features</a></li>
-          <li class="link"><a href="#team">Team</a></li>
-          <li class="link"><a href="#portfolio">Portfolio</a></li>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
         </ul>
       </nav>
 
       <address class="address">
-        <ul>
-          <li class="link">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="address-list">
+          <li class="address-item">
+            <a class="address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="link">
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="address-item">
+            <a class="address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -56,29 +67,29 @@
       <!--Features-->
       <section id="features">
         <h2 class="section-title">Our features</h2>
-        <ul>
-          <li>
+        <ul class="features-list">
+          <li class="features-item">
             <h3 class="features-title">Strategy</h3>
             <p class="features-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="features-title">Punctuality</h3>
             <p class="features-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="features-title">Diligence</h3>
             <p class="features-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="features-title">Technologies</h3>
             <p class="features-text">
               Design practice focused on digital experiences. We bring forth a
@@ -91,8 +102,8 @@
       <!--Team-->
       <section id="team">
         <h2 class="section-title">Our Team</h2>
-        <ul>
-          <li>
+        <ul class="team-list">
+          <li class="team-item">
             <img
               src="./images/team-1.jpg"
               alt="portrait"
@@ -102,7 +113,7 @@
             <h3 class="team-name">Mark Guerrero</h3>
             <p class="team-position">Product Designer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./images/team-2.jpg"
               alt="portrait"
@@ -112,7 +123,7 @@
             <h3 class="team-name">Tom Ford</h3>
             <p class="team-position">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./images/team-3.jpg"
               alt="portrait"
@@ -122,7 +133,7 @@
             <h3 class="team-name">Camila Garcia</h3>
             <p class="team-position">Marketing</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./images/team-4.jpg"
               alt="portrait"

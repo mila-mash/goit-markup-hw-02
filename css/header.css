@@ -6,26 +6,26 @@
   letter-spacing: 2%;
 }
 
-#header a {
-  text-decoration: none;
-}
-
 .logo {
   font-family: 'Raleway';
+  font-weight: 700;
   font-size: 18px;
-  font-weight: bold;
-  letter-spacing: 3%;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .web-logo {
   color: #4d5ae5;
 }
 
-.navigation .link {
+.nav-link {
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
-.address {
+.address-item {
   font-weight: 400;
+  letter-spacing: 0.02em;
   color: #434455;
 }

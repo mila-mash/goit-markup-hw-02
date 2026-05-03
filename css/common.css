@@ -1,15 +1,60 @@
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  list-style-type: none;
-  text-decoration: none;
+  background-color: #ffffff;
 }
 
 button {
   cursor: pointer;
 }
 
-body a:hover,
-body a:active {
-  text-decoration: none;
+/* h2 */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11111;
+  text-align: center;
+  color: #2e2f42;
+}
+
+/* h3 */
+.features-title,
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* text */
+.features-text,
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* focused, active states */
+a:hover,
+a:focus {
+  color: #404bbf;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
