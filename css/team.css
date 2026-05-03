@@ -5,3 +5,8 @@
 .team-item {
   background-color: #ffffff;
 }
+
+.team-name,
+.team-position {
+  text-align: center;
+}
