@@ -6,3 +6,8 @@ footer .logo,
 .footer-text {
   color: #f4f4fd;
 }
+
+footer .logo:hover,
+footer .logo:focus {
+  background-color: #404bbf;
+}
