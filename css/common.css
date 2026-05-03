@@ -14,10 +14,6 @@ body {
   background-color: #ffffff;
 }
 
-button {
-  cursor: pointer;
-}
-
 /* h2 */
 .section-title {
   font-weight: 700;
@@ -30,7 +26,8 @@ button {
 
 /* h3 */
 .features-title,
-.portfolio-title {
+.portfolio-title,
+.team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -40,7 +37,8 @@ button {
 
 /* text */
 .features-text,
-.portfolio-text {
+.portfolio-text,
+.team-position {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
